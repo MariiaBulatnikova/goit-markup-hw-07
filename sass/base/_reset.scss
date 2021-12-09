@@ -12,6 +12,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
 
 .list {
   list-style: none;
@@ -25,10 +30,4 @@ img {
   display: block;
   min-width: 100%;
   height: auto;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
 }

@@ -1,17 +1,17 @@
-@import url(./utills/_vars.scss);
+@import "./utils/vars";
+@import "./base/reset";
+@import "./utils/hidden";
 
-@import url(./base/_reset.scss);
-@import url(./utills/_hidden.scss);
+@import "./components/container";
 
-@import url(./layout/_header.scss);
-@import url(./layout/_hero.scss);
-@import url(./layout/_features.scss);
-@import url(./layout/_activity.scss);
-@import url(./layout/_team.scss);
-@import url(./layout/_clients.scss);
-@import url(./layout/_footer.scss);
-@import url(./layout/_portfolio-hero.scss);
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/activity";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio-hero";
 
-@import url(./components/_container.scss);
-@import url(./components/_modal-window.scss);
-@import url(./components/_modal-form.scss);
+@import "./components/modal-window";
+@import "./components/modal-form";
