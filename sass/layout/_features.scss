@@ -32,12 +32,11 @@
   margin-bottom: 30px;
 }
 
-.features-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .features-list-item {
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .features-title {
@@ -47,7 +46,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
-
   margin-bottom: 10px;
 }
 
